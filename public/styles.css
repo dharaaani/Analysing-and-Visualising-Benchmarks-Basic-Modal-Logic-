@@ -1,0 +1,429 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-y: auto; /* Allow the entire page to scroll if necessary */
+}
+
+
+nav {
+    background-color: #ffc107;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #333;
+    color: #ffc107;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Keep two columns */
+    gap: 20px;
+    padding: 20px;
+    justify-items: center;
+    align-items: start; /* Align items at the start of each column */
+    overflow-y: auto; /* Allow vertical scrolling if content exceeds height */
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease;
+    width: 100%;
+    max-width: 100%; /* Ensure cards take full width available */
+}
+
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.card h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.card button {
+    background-color: #ffc107;
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.card button:hover {
+    background-color: #000;
+    color: #ffc107;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+input[type="text"], textarea {
+    border: 1px solid #ddd;
+    padding: 10px;
+    width: calc(100% - 22px);
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+input[type="submit"], button {
+    background-color: #ffc107;
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover, button:hover {
+    background-color: #000;
+    color: #ffc107;
+}
+
+canvas {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    margin-top: 20px;
+}
+
+footer small a {
+    color: #ffc107;
+    text-decoration: none;
+}
+
+footer small a:hover {
+    text-decoration: underline;
+}
+
+/* Add this if not present */
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease;
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+    background-color: #fff;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 400px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.modal-content h2 {
+    margin-top: 0;
+    font-size: 18px;
+    color: #333;
+}
+
+.modal-content p {
+    font-size: 12px;
+    color: #555;
+}
+
+.modal .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.modal .close:hover,
+.modal .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two columns of equal width */
+    gap: 20px; /* Space between the columns */
+    padding: 20px;
+    justify-items: center; /* Center items within each grid column */
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease;
+    width: 100%;
+    max-width: 400px; /* Adjust this based on your layout needs */
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+button {
+    background-color: #ffc107;
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #000;
+    color: #ffc107;
+}
+
+textarea {
+    border: 1px solid #ddd;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+
+.modal-content h2 {
+    margin-top: 0;
+    font-size: 24px;
+    color: #333;
+}
+
+.modal-content p {
+    font-size: 18px;
+    color: #555;
+}
+
+.modal .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.modal .close:hover,
+.modal .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+
+/* Ensure modal content fits within the screen */
+.modal-content {
+    background-color: #fff;
+    margin: 5% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: auto; /* Allow the width to adjust based on content */
+    max-width: 90%; /* Set a max-width to ensure it doesn't exceed the viewport width */
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    overflow-y: auto; /* Allow vertical scrolling */
+    max-height: 80vh; /* Limit height to 80% of the viewport */
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    overflow-y: auto; /* Ensure table is scrollable if needed */
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+/* Remove horizontal scroll, ensure table fits within the modal */
+table {
+    width: 100%; /* Table width should take the full width of its container */
+    white-space: normal; /* Allow text to wrap within the cells */
+}
+
+.compare-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #f9f9f9; /* Optional: adds a background color */
+    border-radius: 8px; /* Optional: adds rounded corners */
+}
+
+.compare-section label {
+    margin-right: 10px;
+}
+
+.compare-section input[type="radio"],
+.compare-section input[type="checkbox"] {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.compare-section .compare-form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.compare-section .compare-form > div {
+    margin-right: 20px;
+}
+
+.compare-section .compare-form button {
+    margin-left: auto;
+    padding: 10px 20px;
+    background-color: #f8c84a; /* Optional: adds a background color to the button */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.compare-section .compare-form button:hover {
+    background-color: #e5b537; /* Optional: darkens the button on hover */
+}
+
+
+/* Modal Container for the Canvas */
+#visualizeModalContainer {
+    width: 100%;
+    height: 400px; /* Set a height for the chart */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#chartModalCanvas, #visualizeModalCanvas {
+    width: 900%;
+    height: 90%;
+}
+
+#compareChartContainer {
+    width: 100%;
+    height: 400px; /* Set a fixed height, adjust as needed */
+}
+
+/* Ensure the canvas takes the full container size */
+#compareChartContainer canvas {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+
+#pcaTableContainer table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#pcaTableContainer th, #pcaTableContainer td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#pcaTableContainer th {
+    background-color: #f2f2f2;
+    text-align: left;
+}
+

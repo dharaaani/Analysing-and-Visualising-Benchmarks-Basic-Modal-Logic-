@@ -1,0 +1,1006 @@
+Prover,System,Problem,Execution Time,Result
+lwb,bbtab,k_branch_n.0001.,0.0, Sat  
+lwb,bbtab,k_branch_n.0002.,0.0, Sat  
+lwb,bbtab,k_branch_n.0003.,0.0, Sat  
+lwb,bbtab,k_branch_n.0004.,0.0, Sat  
+lwb,bbtab,k_branch_n.0005.,0.0, Sat  
+lwb,bbtab,k_branch_n.0006.,0.0, Sat  
+lwb,bbtab,k_branch_n.0007.,0.01, Sat  
+lwb,bbtab,k_branch_n.0008.,0.01, Sat  
+lwb,bbtab,k_branch_n.0009.,0.02, Sat  
+lwb,bbtab,k_branch_n.0010.,0.03, Sat  
+lwb,bbtab,k_branch_n.0011.,0.06, Sat  
+lwb,bbtab,k_branch_n.0012.,0.12, Sat  
+lwb,bbtab,k_branch_n.0013.,0.28, Sat  
+lwb,bbtab,k_branch_n.0014.,0.68, Sat  
+lwb,bbtab,k_branch_n.0015.,1.66, Sat  
+lwb,bbtab,k_branch_n.0016.,3.7, Sat  
+lwb,bbtab,k_branch_n.0017.,7.98, Sat  
+lwb,bbtab,k_branch_n.0018.,17.37, Sat  
+lwb,bbtab,k_branch_n.0019.,38.25, Sat  
+lwb,bbtab,k_branch_n.0020.,87.51, Sat  
+lwb,bbtab,k_branch_n.0021.,199.34, Sat  
+lwb,bbtab,k_branch_n.0022.,547.83, Sat  
+lwb,bbtab,k_branch_n.0023.,9999999.0,NULL
+lwb,bbtab,k_branch_n.0024.,9999999.0,NULL
+lwb,bbtab,k_branch_n.0025.,9999999.0,NULL
+lwb,bbtab,k_branch_n.0026.,9999999.0,NULL
+lwb,bbtab,k_branch_n.0027.,9999999.0,NULL
+lwb,bbtab,k_branch_n.0028.,9999999.0,NULL
+lwb,bbtab,k_branch_n.0029.,9999999.0,NULL
+lwb,bbtab,k_branch_n.0030.,9999999.0,NULL
+lwb,bbtab,k_branch_n.0032.,9999999.0,NULL
+lwb,bbtab,k_branch_n.0034.,9999999.0,NULL
+lwb,bbtab,k_branch_n.0036.,9999999.0,NULL
+lwb,bbtab,k_branch_n.0038.,9999999.0,NULL
+lwb,bbtab,k_branch_n.0040.,9999999.0,NULL
+lwb,bbtab,k_branch_n.0042.,9999999.0,NULL
+lwb,bbtab,k_branch_n.0044.,9999999.0,NULL
+lwb,bbtab,k_branch_n.0046.,9999999.0,NULL
+lwb,bbtab,k_branch_n.0048.,9999999.0,NULL
+lwb,bbtab,k_branch_n.0050.,9999999.0,NULL
+lwb,bbtab,k_branch_n.0052.,9999999.0,NULL
+lwb,bbtab,k_branch_n.0054.,9999999.0,NULL
+lwb,bbtab,k_branch_n.0056.,9999999.0,NULL
+lwb,bbtab,k_branch_n.0058.,9999999.0,NULL
+lwb,bbtab,k_branch_n.0060.,9999999.0,NULL
+lwb,bbtab,k_branch_n.0062.,9999999.0,NULL
+lwb,bbtab,k_branch_n.0064.,9999999.0,NULL
+lwb,bbtab,k_branch_n.0066.,9999999.0,NULL
+lwb,bbtab,k_branch_n.0068.,9999999.0,NULL
+lwb,bbtab,k_branch_n.0070.,9999999.0,NULL
+lwb,bbtab,k_branch_n.0072.,9999999.0,NULL
+lwb,bbtab,k_branch_n.0074.,9999999.0,NULL
+lwb,bbtab,k_branch_n.0076.,9999999.0,NULL
+lwb,bbtab,k_branch_n.0078.,9999999.0,NULL
+lwb,bbtab,k_branch_n.0080.,9999999.0,NULL
+lwb,bbtab,k_branch_p.0001.,0.0, Unsat
+lwb,bbtab,k_branch_p.0002.,0.0, Unsat
+lwb,bbtab,k_branch_p.0003.,0.0, Unsat
+lwb,bbtab,k_branch_p.0004.,0.0, Unsat
+lwb,bbtab,k_branch_p.0005.,0.0, Unsat
+lwb,bbtab,k_branch_p.0006.,0.0, Unsat
+lwb,bbtab,k_branch_p.0007.,0.01, Unsat
+lwb,bbtab,k_branch_p.0008.,0.01, Unsat
+lwb,bbtab,k_branch_p.0009.,0.01, Unsat
+lwb,bbtab,k_branch_p.0010.,0.02, Unsat
+lwb,bbtab,k_branch_p.0011.,0.03, Unsat
+lwb,bbtab,k_branch_p.0012.,0.05, Unsat
+lwb,bbtab,k_branch_p.0013.,0.1, Unsat
+lwb,bbtab,k_branch_p.0014.,0.27, Unsat
+lwb,bbtab,k_branch_p.0015.,0.63, Unsat
+lwb,bbtab,k_branch_p.0016.,1.43, Unsat
+lwb,bbtab,k_branch_p.0017.,3.04, Unsat
+lwb,bbtab,k_branch_p.0018.,6.84, Unsat
+lwb,bbtab,k_branch_p.0019.,17.72, Unsat
+lwb,bbtab,k_branch_p.0020.,47.78, Unsat
+lwb,bbtab,k_branch_p.0021.,148.35, Unsat
+lwb,bbtab,k_branch_p.0022.,520.51, Unsat
+lwb,bbtab,k_branch_p.0023.,9999999.0,NULL
+lwb,bbtab,k_branch_p.0024.,9999999.0,NULL
+lwb,bbtab,k_branch_p.0025.,9999999.0,NULL
+lwb,bbtab,k_branch_p.0026.,9999999.0,NULL
+lwb,bbtab,k_branch_p.0027.,9999999.0,NULL
+lwb,bbtab,k_branch_p.0028.,9999999.0,NULL
+lwb,bbtab,k_branch_p.0029.,9999999.0,NULL
+lwb,bbtab,k_branch_p.0030.,9999999.0,NULL
+lwb,bbtab,k_branch_p.0032.,9999999.0,NULL
+lwb,bbtab,k_branch_p.0034.,9999999.0,NULL
+lwb,bbtab,k_branch_p.0036.,9999999.0,NULL
+lwb,bbtab,k_branch_p.0038.,9999999.0,NULL
+lwb,bbtab,k_branch_p.0040.,9999999.0,NULL
+lwb,bbtab,k_branch_p.0042.,9999999.0,NULL
+lwb,bbtab,k_branch_p.0044.,9999999.0,NULL
+lwb,bbtab,k_branch_p.0046.,9999999.0,NULL
+lwb,bbtab,k_branch_p.0048.,9999999.0,NULL
+lwb,bbtab,k_branch_p.0050.,9999999.0,NULL
+lwb,bbtab,k_branch_p.0052.,9999999.0,NULL
+lwb,bbtab,k_branch_p.0054.,9999999.0,NULL
+lwb,bbtab,k_branch_p.0056.,9999999.0,NULL
+lwb,bbtab,k_branch_p.0058.,9999999.0,NULL
+lwb,bbtab,k_branch_p.0060.,9999999.0,NULL
+lwb,bbtab,k_branch_p.0062.,9999999.0,NULL
+lwb,bbtab,k_branch_p.0064.,9999999.0,NULL
+lwb,bbtab,k_branch_p.0066.,9999999.0,NULL
+lwb,bbtab,k_branch_p.0068.,9999999.0,NULL
+lwb,bbtab,k_branch_p.0070.,9999999.0,NULL
+lwb,bbtab,k_branch_p.0072.,9999999.0,NULL
+lwb,bbtab,k_branch_p.0074.,9999999.0,NULL
+lwb,bbtab,k_branch_p.0076.,9999999.0,NULL
+lwb,bbtab,k_branch_p.0078.,9999999.0,NULL
+lwb,bbtab,k_branch_p.0080.,9999999.0,NULL
+lwb,bbtab,k_d4_n.0004.,0.0, Sat  
+lwb,bbtab,k_d4_n.0008.,0.0, Sat  
+lwb,bbtab,k_d4_n.0012.,0.01, Sat  
+lwb,bbtab,k_d4_n.0016.,0.02, Sat  
+lwb,bbtab,k_d4_n.0020.,0.04, Sat  
+lwb,bbtab,k_d4_n.0040.,0.29, Sat  
+lwb,bbtab,k_d4_n.0060.,0.94, Sat  
+lwb,bbtab,k_d4_n.0080.,2.73, Sat  
+lwb,bbtab,k_d4_n.0100.,4.46, Sat  
+lwb,bbtab,k_d4_n.0120.,9.38, Sat  
+lwb,bbtab,k_d4_n.0140.,12.18, Sat  
+lwb,bbtab,k_d4_n.0160.,20.38, Sat  
+lwb,bbtab,k_d4_n.0180.,35.3, Sat  
+lwb,bbtab,k_d4_n.0200.,41.59, Sat  
+lwb,bbtab,k_d4_n.0240.,91.69, Sat  
+lwb,bbtab,k_d4_n.0280.,149.53, Sat  
+lwb,bbtab,k_d4_n.0320.,258.92, Sat  
+lwb,bbtab,k_d4_n.0360.,441.7, Sat  
+lwb,bbtab,k_d4_n.0400.,510.01, Sat  
+lwb,bbtab,k_d4_n.0440.,758.05, Sat  
+lwb,bbtab,k_d4_n.0480.,9999999.0,NULL
+lwb,bbtab,k_d4_n.0520.,9999999.0,NULL
+lwb,bbtab,k_d4_n.0560.,9999999.0,NULL
+lwb,bbtab,k_d4_n.0600.,9999999.0,NULL
+lwb,bbtab,k_d4_n.0640.,9999999.0,NULL
+lwb,bbtab,k_d4_n.0680.,9999999.0,NULL
+lwb,bbtab,k_d4_n.0720.,9999999.0,NULL
+lwb,bbtab,k_d4_n.0760.,9999999.0,NULL
+lwb,bbtab,k_d4_n.0800.,9999999.0,NULL
+lwb,bbtab,k_d4_n.0840.,9999999.0,NULL
+lwb,bbtab,k_d4_n.0880.,9999999.0,NULL
+lwb,bbtab,k_d4_n.0920.,9999999.0,NULL
+lwb,bbtab,k_d4_n.0960.,9999999.0,NULL
+lwb,bbtab,k_d4_n.1000.,9999999.0,NULL
+lwb,bbtab,k_d4_n.1040.,9999999.0,NULL
+lwb,bbtab,k_d4_n.1080.,9999999.0,NULL
+lwb,bbtab,k_d4_n.1120.,9999999.0,NULL
+lwb,bbtab,k_d4_n.1160.,9999999.0,NULL
+lwb,bbtab,k_d4_n.1200.,9999999.0,NULL
+lwb,bbtab,k_d4_n.1240.,9999999.0,NULL
+lwb,bbtab,k_d4_n.1280.,9999999.0,NULL
+lwb,bbtab,k_d4_n.1320.,9999999.0,NULL
+lwb,bbtab,k_d4_n.1360.,9999999.0,NULL
+lwb,bbtab,k_d4_n.1400.,9999999.0,NULL
+lwb,bbtab,k_d4_n.1440.,9999999.0,NULL
+lwb,bbtab,k_d4_n.1480.,9999999.0,NULL
+lwb,bbtab,k_d4_n.1520.,9999999.0,NULL
+lwb,bbtab,k_d4_n.1560.,9999999.0,NULL
+lwb,bbtab,k_d4_n.1600.,9999999.0,NULL
+lwb,bbtab,k_d4_n.1640.,9999999.0,NULL
+lwb,bbtab,k_d4_n.1680.,9999999.0,NULL
+lwb,bbtab,k_d4_n.1720.,9999999.0,NULL
+lwb,bbtab,k_d4_n.1760.,9999999.0,NULL
+lwb,bbtab,k_d4_n.1800.,9999999.0,NULL
+lwb,bbtab,k_d4_n.1840.,9999999.0,NULL
+lwb,bbtab,k_d4_n.1880.,9999999.0,NULL
+lwb,bbtab,k_d4_p.0004.,0.0, Unsat
+lwb,bbtab,k_d4_p.0008.,0.0, Unsat
+lwb,bbtab,k_d4_p.0012.,0.0, Unsat
+lwb,bbtab,k_d4_p.0016.,0.0, Unsat
+lwb,bbtab,k_d4_p.0020.,0.01, Unsat
+lwb,bbtab,k_d4_p.0040.,0.08, Unsat
+lwb,bbtab,k_d4_p.0060.,0.29, Unsat
+lwb,bbtab,k_d4_p.0080.,0.65, Unsat
+lwb,bbtab,k_d4_p.0100.,1.64, Unsat
+lwb,bbtab,k_d4_p.0120.,2.35, Unsat
+lwb,bbtab,k_d4_p.0140.,4.45, Unsat
+lwb,bbtab,k_d4_p.0160.,5.55, Unsat
+lwb,bbtab,k_d4_p.0180.,8.99, Unsat
+lwb,bbtab,k_d4_p.0200.,13.85, Unsat
+lwb,bbtab,k_d4_p.0240.,24.27, Unsat
+lwb,bbtab,k_d4_p.0280.,47.21, Unsat
+lwb,bbtab,k_d4_p.0320.,70.88, Unsat
+lwb,bbtab,k_d4_p.0360.,116.13, Unsat
+lwb,bbtab,k_d4_p.0400.,184.62, Unsat
+lwb,bbtab,k_d4_p.0440.,237.34, Unsat
+lwb,bbtab,k_d4_p.0480.,305.96, Unsat
+lwb,bbtab,k_d4_p.0520.,426.24, Unsat
+lwb,bbtab,k_d4_p.0560.,582.38, Unsat
+lwb,bbtab,k_d4_p.0600.,811.39, Unsat
+lwb,bbtab,k_d4_p.0640.,737.57, Unsat
+lwb,bbtab,k_d4_p.0680.,949.9, Unsat
+lwb,bbtab,k_d4_p.0720.,9999999.0,NULL
+lwb,bbtab,k_d4_p.0760.,9999999.0,NULL
+lwb,bbtab,k_d4_p.0800.,9999999.0,NULL
+lwb,bbtab,k_d4_p.0840.,9999999.0,NULL
+lwb,bbtab,k_d4_p.0880.,9999999.0,NULL
+lwb,bbtab,k_d4_p.0920.,9999999.0,NULL
+lwb,bbtab,k_d4_p.0960.,9999999.0,NULL
+lwb,bbtab,k_d4_p.1000.,9999999.0,NULL
+lwb,bbtab,k_d4_p.1040.,9999999.0,NULL
+lwb,bbtab,k_d4_p.1080.,9999999.0,NULL
+lwb,bbtab,k_d4_p.1120.,9999999.0,NULL
+lwb,bbtab,k_d4_p.1160.,9999999.0,NULL
+lwb,bbtab,k_d4_p.1200.,9999999.0,NULL
+lwb,bbtab,k_d4_p.1240.,9999999.0,NULL
+lwb,bbtab,k_d4_p.1280.,9999999.0,NULL
+lwb,bbtab,k_d4_p.1320.,9999999.0,NULL
+lwb,bbtab,k_d4_p.1360.,9999999.0,NULL
+lwb,bbtab,k_d4_p.1400.,9999999.0,NULL
+lwb,bbtab,k_d4_p.1440.,9999999.0,NULL
+lwb,bbtab,k_d4_p.1480.,9999999.0,NULL
+lwb,bbtab,k_d4_p.1520.,9999999.0,NULL
+lwb,bbtab,k_d4_p.1560.,9999999.0,NULL
+lwb,bbtab,k_d4_p.1600.,9999999.0,NULL
+lwb,bbtab,k_d4_p.1640.,9999999.0,NULL
+lwb,bbtab,k_d4_p.1680.,9999999.0,NULL
+lwb,bbtab,k_d4_p.1720.,9999999.0,NULL
+lwb,bbtab,k_d4_p.1760.,9999999.0,NULL
+lwb,bbtab,k_d4_p.1800.,9999999.0,NULL
+lwb,bbtab,k_d4_p.1840.,9999999.0,NULL
+lwb,bbtab,k_d4_p.1880.,9999999.0,NULL
+lwb,bbtab,k_dum_n.0008.,0.0, Sat  
+lwb,bbtab,k_dum_n.0016.,0.0, Sat  
+lwb,bbtab,k_dum_n.0024.,0.0, Sat  
+lwb,bbtab,k_dum_n.0032.,0.01, Sat  
+lwb,bbtab,k_dum_n.0040.,0.01, Sat  
+lwb,bbtab,k_dum_n.0080.,0.04, Sat  
+lwb,bbtab,k_dum_n.0120.,0.09, Sat  
+lwb,bbtab,k_dum_n.0160.,0.19, Sat  
+lwb,bbtab,k_dum_n.0200.,0.36, Sat  
+lwb,bbtab,k_dum_n.0240.,0.59, Sat  
+lwb,bbtab,k_dum_n.0280.,0.94, Sat  
+lwb,bbtab,k_dum_n.0320.,1.41, Sat  
+lwb,bbtab,k_dum_n.0360.,1.94, Sat  
+lwb,bbtab,k_dum_n.0400.,2.66, Sat  
+lwb,bbtab,k_dum_n.0480.,4.84, Sat  
+lwb,bbtab,k_dum_n.0560.,7.7, Sat  
+lwb,bbtab,k_dum_n.0640.,12.25, Sat  
+lwb,bbtab,k_dum_n.0720.,17.5, Sat  
+lwb,bbtab,k_dum_n.0800.,24.56, Sat  
+lwb,bbtab,k_dum_n.0880.,35.3, Sat  
+lwb,bbtab,k_dum_n.0960.,48.16, Sat  
+lwb,bbtab,k_dum_n.1040.,59.86, Sat  
+lwb,bbtab,k_dum_n.1120.,74.19, Sat  
+lwb,bbtab,k_dum_n.1200.,92.61, Sat  
+lwb,bbtab,k_dum_n.1280.,122.75, Sat  
+lwb,bbtab,k_dum_n.1360.,152.08, Sat  
+lwb,bbtab,k_dum_n.1440.,180.06, Sat  
+lwb,bbtab,k_dum_n.1520.,207.44, Sat  
+lwb,bbtab,k_dum_n.1600.,242.07, Sat  
+lwb,bbtab,k_dum_n.1680.,285.84, Sat  
+lwb,bbtab,k_dum_n.1760.,342.16, Sat  
+lwb,bbtab,k_dum_n.1840.,411.42, Sat  
+lwb,bbtab,k_dum_n.1920.,474.61, Sat  
+lwb,bbtab,k_dum_n.2000.,546.16, Sat  
+lwb,bbtab,k_dum_n.2080.,601.63, Sat  
+lwb,bbtab,k_dum_n.2160.,665.24, Sat  
+lwb,bbtab,k_dum_n.2240.,735.84, Sat  
+lwb,bbtab,k_dum_n.2320.,830.79, Sat  
+lwb,bbtab,k_dum_n.2400.,914.56, Sat  
+lwb,bbtab,k_dum_n.2480.,9999999.0,NULL
+lwb,bbtab,k_dum_n.2560.,9999999.0,NULL
+lwb,bbtab,k_dum_n.2640.,9999999.0,NULL
+lwb,bbtab,k_dum_n.2720.,9999999.0,NULL
+lwb,bbtab,k_dum_n.2800.,9999999.0,NULL
+lwb,bbtab,k_dum_n.2880.,9999999.0,NULL
+lwb,bbtab,k_dum_n.2960.,9999999.0,NULL
+lwb,bbtab,k_dum_n.3040.,9999999.0,NULL
+lwb,bbtab,k_dum_n.3120.,9999999.0,NULL
+lwb,bbtab,k_dum_n.3200.,9999999.0,NULL
+lwb,bbtab,k_dum_n.3280.,9999999.0,NULL
+lwb,bbtab,k_dum_n.3360.,9999999.0,NULL
+lwb,bbtab,k_dum_n.3440.,9999999.0,NULL
+lwb,bbtab,k_dum_n.3520.,9999999.0,NULL
+lwb,bbtab,k_dum_n.3600.,9999999.0,NULL
+lwb,bbtab,k_dum_n.3680.,9999999.0,NULL
+lwb,bbtab,k_dum_n.3760.,9999999.0,NULL
+lwb,bbtab,k_dum_p.0008.,0.0, Unsat
+lwb,bbtab,k_dum_p.0016.,0.0, Unsat
+lwb,bbtab,k_dum_p.0024.,0.0, Unsat
+lwb,bbtab,k_dum_p.0032.,0.0, Unsat
+lwb,bbtab,k_dum_p.0040.,0.01, Unsat
+lwb,bbtab,k_dum_p.0080.,0.02, Unsat
+lwb,bbtab,k_dum_p.0120.,0.06, Unsat
+lwb,bbtab,k_dum_p.0160.,0.14, Unsat
+lwb,bbtab,k_dum_p.0200.,0.25, Unsat
+lwb,bbtab,k_dum_p.0240.,0.43, Unsat
+lwb,bbtab,k_dum_p.0280.,0.68, Unsat
+lwb,bbtab,k_dum_p.0320.,1.04, Unsat
+lwb,bbtab,k_dum_p.0360.,1.46, Unsat
+lwb,bbtab,k_dum_p.0400.,2.02, Unsat
+lwb,bbtab,k_dum_p.0480.,3.66, Unsat
+lwb,bbtab,k_dum_p.0560.,5.79, Unsat
+lwb,bbtab,k_dum_p.0640.,9.16, Unsat
+lwb,bbtab,k_dum_p.0720.,13.14, Unsat
+lwb,bbtab,k_dum_p.0800.,18.3, Unsat
+lwb,bbtab,k_dum_p.0880.,25.69, Unsat
+lwb,bbtab,k_dum_p.0960.,35.24, Unsat
+lwb,bbtab,k_dum_p.1040.,43.96, Unsat
+lwb,bbtab,k_dum_p.1120.,55.1, Unsat
+lwb,bbtab,k_dum_p.1200.,69.72, Unsat
+lwb,bbtab,k_dum_p.1280.,88.73, Unsat
+lwb,bbtab,k_dum_p.1360.,110.91, Unsat
+lwb,bbtab,k_dum_p.1440.,130.22, Unsat
+lwb,bbtab,k_dum_p.1520.,151.46, Unsat
+lwb,bbtab,k_dum_p.1600.,178.69, Unsat
+lwb,bbtab,k_dum_p.1680.,210.69, Unsat
+lwb,bbtab,k_dum_p.1760.,248.17, Unsat
+lwb,bbtab,k_dum_p.1840.,294.31, Unsat
+lwb,bbtab,k_dum_p.1920.,343.12, Unsat
+lwb,bbtab,k_dum_p.2000.,385.32, Unsat
+lwb,bbtab,k_dum_p.2080.,428.62, Unsat
+lwb,bbtab,k_dum_p.2160.,476.67, Unsat
+lwb,bbtab,k_dum_p.2240.,532.56, Unsat
+lwb,bbtab,k_dum_p.2320.,599.3, Unsat
+lwb,bbtab,k_dum_p.2400.,671.96, Unsat
+lwb,bbtab,k_dum_p.2480.,754.21, Unsat
+lwb,bbtab,k_dum_p.2560.,848.0, Unsat
+lwb,bbtab,k_dum_p.2640.,963.43, Unsat
+lwb,bbtab,k_dum_p.2720.,9999999.0,NULL
+lwb,bbtab,k_dum_p.2800.,9999999.0,NULL
+lwb,bbtab,k_dum_p.2880.,9999999.0,NULL
+lwb,bbtab,k_dum_p.2960.,9999999.0,NULL
+lwb,bbtab,k_dum_p.3040.,9999999.0,NULL
+lwb,bbtab,k_dum_p.3120.,9999999.0,NULL
+lwb,bbtab,k_dum_p.3200.,9999999.0,NULL
+lwb,bbtab,k_dum_p.3280.,9999999.0,NULL
+lwb,bbtab,k_dum_p.3360.,9999999.0,NULL
+lwb,bbtab,k_dum_p.3440.,9999999.0,NULL
+lwb,bbtab,k_dum_p.3520.,9999999.0,NULL
+lwb,bbtab,k_dum_p.3600.,9999999.0,NULL
+lwb,bbtab,k_dum_p.3680.,9999999.0,NULL
+lwb,bbtab,k_dum_p.3760.,9999999.0,NULL
+lwb,bbtab,k_grz_n.0010.,0.0, Sat  
+lwb,bbtab,k_grz_n.0020.,0.0, Sat  
+lwb,bbtab,k_grz_n.0030.,0.0, Sat  
+lwb,bbtab,k_grz_n.0040.,0.01, Sat  
+lwb,bbtab,k_grz_n.0050.,0.01, Sat  
+lwb,bbtab,k_grz_n.0060.,0.02, Sat  
+lwb,bbtab,k_grz_n.0070.,0.02, Sat  
+lwb,bbtab,k_grz_n.0080.,0.03, Sat  
+lwb,bbtab,k_grz_n.0090.,0.04, Sat  
+lwb,bbtab,k_grz_n.0100.,0.05, Sat  
+lwb,bbtab,k_grz_n.0200.,0.37, Sat  
+lwb,bbtab,k_grz_n.0300.,1.28, Sat  
+lwb,bbtab,k_grz_n.0400.,3.0, Sat  
+lwb,bbtab,k_grz_n.0500.,5.85, Sat  
+lwb,bbtab,k_grz_n.0600.,10.14, Sat  
+lwb,bbtab,k_grz_n.0700.,16.08, Sat  
+lwb,bbtab,k_grz_n.0800.,24.17, Sat  
+lwb,bbtab,k_grz_n.0900.,34.53, Sat  
+lwb,bbtab,k_grz_n.1000.,47.56, Sat  
+lwb,bbtab,k_grz_n.1100.,64.01, Sat  
+lwb,bbtab,k_grz_n.1200.,82.79, Sat  
+lwb,bbtab,k_grz_n.1300.,106.08, Sat  
+lwb,bbtab,k_grz_n.1400.,133.2, Sat  
+lwb,bbtab,k_grz_n.1500.,164.93, Sat  
+lwb,bbtab,k_grz_n.1600.,201.74, Sat  
+lwb,bbtab,k_grz_n.1700.,243.26, Sat  
+lwb,bbtab,k_grz_n.1800.,290.42, Sat  
+lwb,bbtab,k_grz_n.1900.,343.81, Sat  
+lwb,bbtab,k_grz_n.2000.,403.83, Sat  
+lwb,bbtab,k_grz_n.2100.,469.66, Sat  
+lwb,bbtab,k_grz_n.2200.,545.6, Sat  
+lwb,bbtab,k_grz_n.2300.,628.31, Sat  
+lwb,bbtab,k_grz_n.2400.,719.74, Sat  
+lwb,bbtab,k_grz_n.2500.,820.99, Sat  
+lwb,bbtab,k_grz_n.2600.,931.34, Sat  
+lwb,bbtab,k_grz_n.2700.,9999999.0,NULL
+lwb,bbtab,k_grz_n.2800.,9999999.0,NULL
+lwb,bbtab,k_grz_n.2900.,9999999.0,NULL
+lwb,bbtab,k_grz_n.3000.,9999999.0,NULL
+lwb,bbtab,k_grz_n.3100.,9999999.0,NULL
+lwb,bbtab,k_grz_n.3200.,9999999.0,NULL
+lwb,bbtab,k_grz_n.3300.,9999999.0,NULL
+lwb,bbtab,k_grz_n.3400.,9999999.0,NULL
+lwb,bbtab,k_grz_n.3500.,9999999.0,NULL
+lwb,bbtab,k_grz_n.3600.,9999999.0,NULL
+lwb,bbtab,k_grz_n.3700.,9999999.0,NULL
+lwb,bbtab,k_grz_n.3800.,9999999.0,NULL
+lwb,bbtab,k_grz_n.3900.,9999999.0,NULL
+lwb,bbtab,k_grz_n.4000.,9999999.0,NULL
+lwb,bbtab,k_grz_n.4500.,9999999.0,NULL
+lwb,bbtab,k_grz_n.5000.,9999999.0,NULL
+lwb,bbtab,k_grz_n.5500.,9999999.0,NULL
+lwb,bbtab,k_grz_n.6000.,9999999.0,NULL
+lwb,bbtab,k_grz_n.6500.,9999999.0,NULL
+lwb,bbtab,k_grz_n.7000.,9999999.0,NULL
+lwb,bbtab,k_grz_n.8000.,9999999.0,NULL
+lwb,bbtab,k_grz_p.0010.,0.0, Unsat
+lwb,bbtab,k_grz_p.0020.,0.0, Unsat
+lwb,bbtab,k_grz_p.0030.,0.0, Unsat
+lwb,bbtab,k_grz_p.0040.,0.01, Unsat
+lwb,bbtab,k_grz_p.0050.,0.01, Unsat
+lwb,bbtab,k_grz_p.0060.,0.02, Unsat
+lwb,bbtab,k_grz_p.0070.,0.02, Unsat
+lwb,bbtab,k_grz_p.0080.,0.03, Unsat
+lwb,bbtab,k_grz_p.0090.,0.04, Unsat
+lwb,bbtab,k_grz_p.0100.,0.05, Unsat
+lwb,bbtab,k_grz_p.0200.,0.37, Unsat
+lwb,bbtab,k_grz_p.0300.,1.28, Unsat
+lwb,bbtab,k_grz_p.0400.,3.05, Unsat
+lwb,bbtab,k_grz_p.0500.,5.95, Unsat
+lwb,bbtab,k_grz_p.0600.,10.31, Unsat
+lwb,bbtab,k_grz_p.0700.,16.31, Unsat
+lwb,bbtab,k_grz_p.0800.,24.42, Unsat
+lwb,bbtab,k_grz_p.0900.,34.97, Unsat
+lwb,bbtab,k_grz_p.1000.,48.24, Unsat
+lwb,bbtab,k_grz_p.1100.,65.17, Unsat
+lwb,bbtab,k_grz_p.1200.,85.25, Unsat
+lwb,bbtab,k_grz_p.1300.,109.07, Unsat
+lwb,bbtab,k_grz_p.1400.,136.06, Unsat
+lwb,bbtab,k_grz_p.1500.,168.52, Unsat
+lwb,bbtab,k_grz_p.1600.,206.32, Unsat
+lwb,bbtab,k_grz_p.1700.,248.71, Unsat
+lwb,bbtab,k_grz_p.1800.,296.99, Unsat
+lwb,bbtab,k_grz_p.1900.,351.42, Unsat
+lwb,bbtab,k_grz_p.2000.,413.01, Unsat
+lwb,bbtab,k_grz_p.2100.,481.6, Unsat
+lwb,bbtab,k_grz_p.2200.,557.49, Unsat
+lwb,bbtab,k_grz_p.2300.,641.93, Unsat
+lwb,bbtab,k_grz_p.2400.,734.62, Unsat
+lwb,bbtab,k_grz_p.2500.,839.18, Unsat
+lwb,bbtab,k_grz_p.2600.,950.8, Unsat
+lwb,bbtab,k_grz_p.2700.,9999999.0,NULL
+lwb,bbtab,k_grz_p.2800.,9999999.0,NULL
+lwb,bbtab,k_grz_p.2900.,9999999.0,NULL
+lwb,bbtab,k_grz_p.3000.,9999999.0,NULL
+lwb,bbtab,k_grz_p.3100.,9999999.0,NULL
+lwb,bbtab,k_grz_p.3200.,9999999.0,NULL
+lwb,bbtab,k_grz_p.3300.,9999999.0,NULL
+lwb,bbtab,k_grz_p.3400.,9999999.0,NULL
+lwb,bbtab,k_grz_p.3500.,9999999.0,NULL
+lwb,bbtab,k_grz_p.3600.,9999999.0,NULL
+lwb,bbtab,k_grz_p.3700.,9999999.0,NULL
+lwb,bbtab,k_grz_p.3800.,9999999.0,NULL
+lwb,bbtab,k_grz_p.3900.,9999999.0,NULL
+lwb,bbtab,k_grz_p.4000.,9999999.0,NULL
+lwb,bbtab,k_grz_p.4500.,9999999.0,NULL
+lwb,bbtab,k_grz_p.5000.,9999999.0,NULL
+lwb,bbtab,k_grz_p.5500.,9999999.0,NULL
+lwb,bbtab,k_grz_p.6000.,9999999.0,NULL
+lwb,bbtab,k_grz_p.6500.,9999999.0,NULL
+lwb,bbtab,k_grz_p.7000.,9999999.0,NULL
+lwb,bbtab,k_grz_p.8000.,9999999.0,NULL
+lwb,bbtab,k_lin_n.0010.,0.0, Sat  
+lwb,bbtab,k_lin_n.0020.,0.01, Sat  
+lwb,bbtab,k_lin_n.0030.,0.05, Sat  
+lwb,bbtab,k_lin_n.0040.,0.1, Sat  
+lwb,bbtab,k_lin_n.0050.,0.18, Sat  
+lwb,bbtab,k_lin_n.0060.,0.31, Sat  
+lwb,bbtab,k_lin_n.0070.,0.38, Sat  
+lwb,bbtab,k_lin_n.0080.,0.51, Sat  
+lwb,bbtab,k_lin_n.0090.,0.71, Sat  
+lwb,bbtab,k_lin_n.0100.,0.85, Sat  
+lwb,bbtab,k_lin_n.0200.,4.52, Sat  
+lwb,bbtab,k_lin_n.0300.,12.58, Sat  
+lwb,bbtab,k_lin_n.0400.,26.34, Sat  
+lwb,bbtab,k_lin_n.0500.,51.3, Sat  
+lwb,bbtab,k_lin_n.0600.,98.2, Sat  
+lwb,bbtab,k_lin_n.0700.,141.5, Sat  
+lwb,bbtab,k_lin_n.0800.,234.38, Sat  
+lwb,bbtab,k_lin_n.0900.,337.48, Sat  
+lwb,bbtab,k_lin_n.1000.,467.41, Sat  
+lwb,bbtab,k_lin_n.1100.,612.6, Sat  
+lwb,bbtab,k_lin_n.1200.,793.87, Sat  
+lwb,bbtab,k_lin_n.1300.,956.99, Sat  
+lwb,bbtab,k_lin_n.1400.,9999999.0,NULL
+lwb,bbtab,k_lin_n.1500.,9999999.0,NULL
+lwb,bbtab,k_lin_n.1600.,9999999.0,NULL
+lwb,bbtab,k_lin_n.1700.,9999999.0,NULL
+lwb,bbtab,k_lin_n.1800.,9999999.0,NULL
+lwb,bbtab,k_lin_n.1900.,9999999.0,NULL
+lwb,bbtab,k_lin_n.2000.,9999999.0,NULL
+lwb,bbtab,k_lin_n.2100.,9999999.0,NULL
+lwb,bbtab,k_lin_n.2200.,9999999.0,NULL
+lwb,bbtab,k_lin_n.2300.,9999999.0,NULL
+lwb,bbtab,k_lin_n.2400.,9999999.0,NULL
+lwb,bbtab,k_lin_n.2500.,9999999.0,NULL
+lwb,bbtab,k_lin_n.2600.,9999999.0,NULL
+lwb,bbtab,k_lin_n.2700.,9999999.0,NULL
+lwb,bbtab,k_lin_n.2800.,9999999.0,NULL
+lwb,bbtab,k_lin_n.2900.,9999999.0,NULL
+lwb,bbtab,k_lin_n.3000.,9999999.0,NULL
+lwb,bbtab,k_lin_n.3100.,9999999.0,NULL
+lwb,bbtab,k_lin_n.3200.,9999999.0,NULL
+lwb,bbtab,k_lin_n.3300.,9999999.0,NULL
+lwb,bbtab,k_lin_n.3400.,9999999.0,NULL
+lwb,bbtab,k_lin_n.3600.,9999999.0,NULL
+lwb,bbtab,k_lin_n.3800.,9999999.0,NULL
+lwb,bbtab,k_lin_n.4000.,9999999.0,NULL
+lwb,bbtab,k_lin_n.4200.,9999999.0,NULL
+lwb,bbtab,k_lin_n.4400.,9999999.0,NULL
+lwb,bbtab,k_lin_n.4600.,9999999.0,NULL
+lwb,bbtab,k_lin_n.4800.,9999999.0,NULL
+lwb,bbtab,k_lin_n.5000.,9999999.0,NULL
+lwb,bbtab,k_lin_n.5200.,9999999.0,NULL
+lwb,bbtab,k_lin_n.5400.,9999999.0,NULL
+lwb,bbtab,k_lin_n.5600.,9999999.0,NULL
+lwb,bbtab,k_lin_n.5800.,9999999.0,NULL
+lwb,bbtab,k_lin_n.6000.,9999999.0,NULL
+lwb,bbtab,k_lin_p.000010.,0.0, Unsat
+lwb,bbtab,k_lin_p.000020.,0.0, Unsat
+lwb,bbtab,k_lin_p.000030.,0.01, Unsat
+lwb,bbtab,k_lin_p.000040.,0.02, Unsat
+lwb,bbtab,k_lin_p.000050.,0.03, Unsat
+lwb,bbtab,k_lin_p.000060.,0.07, Unsat
+lwb,bbtab,k_lin_p.000070.,0.1, Unsat
+lwb,bbtab,k_lin_p.000080.,0.16, Unsat
+lwb,bbtab,k_lin_p.000090.,0.26, Unsat
+lwb,bbtab,k_lin_p.000100.,0.4, Unsat
+lwb,bbtab,k_lin_p.000200.,8.74, Unsat
+lwb,bbtab,k_lin_p.000300.,52.83, Unsat
+lwb,bbtab,k_lin_p.000400.,180.97, Unsat
+lwb,bbtab,k_lin_p.000500.,467.08, Unsat
+lwb,bbtab,k_lin_p.000600.,9999999.0,NULL
+lwb,bbtab,k_lin_p.000700.,9999999.0,NULL
+lwb,bbtab,k_lin_p.000800.,9999999.0,NULL
+lwb,bbtab,k_lin_p.000900.,9999999.0,NULL
+lwb,bbtab,k_lin_p.001000.,9999999.0,NULL
+lwb,bbtab,k_lin_p.002000.,9999999.0,NULL
+lwb,bbtab,k_lin_p.003000.,9999999.0,NULL
+lwb,bbtab,k_lin_p.004000.,9999999.0,NULL
+lwb,bbtab,k_lin_p.005000.,9999999.0,NULL
+lwb,bbtab,k_lin_p.006000.,9999999.0,NULL
+lwb,bbtab,k_lin_p.007000.,9999999.0,NULL
+lwb,bbtab,k_lin_p.008000.,9999999.0,NULL
+lwb,bbtab,k_lin_p.009000.,9999999.0,NULL
+lwb,bbtab,k_lin_p.010000.,9999999.0,NULL
+lwb,bbtab,k_lin_p.020000.,9999999.0,NULL
+lwb,bbtab,k_lin_p.030000.,9999999.0,NULL
+lwb,bbtab,k_lin_p.040000.,9999999.0,NULL
+lwb,bbtab,k_lin_p.050000.,9999999.0,NULL
+lwb,bbtab,k_lin_p.060000.,9999999.0,NULL
+lwb,bbtab,k_lin_p.070000.,9999999.0,NULL
+lwb,bbtab,k_lin_p.080000.,9999999.0,NULL
+lwb,bbtab,k_lin_p.090000.,9999999.0,NULL
+lwb,bbtab,k_lin_p.100000.,9999999.0,NULL
+lwb,bbtab,k_lin_p.110000.,9999999.0,NULL
+lwb,bbtab,k_lin_p.120000.,9999999.0,NULL
+lwb,bbtab,k_lin_p.130000.,9999999.0,NULL
+lwb,bbtab,k_lin_p.140000.,9999999.0,NULL
+lwb,bbtab,k_lin_p.150000.,9999999.0,NULL
+lwb,bbtab,k_lin_p.160000.,9999999.0,NULL
+lwb,bbtab,k_lin_p.170000.,9999999.0,NULL
+lwb,bbtab,k_lin_p.180000.,9999999.0,NULL
+lwb,bbtab,k_lin_p.190000.,9999999.0,NULL
+lwb,bbtab,k_lin_p.200000.,9999999.0,NULL
+lwb,bbtab,k_lin_p.225000.,9999999.0,NULL
+lwb,bbtab,k_lin_p.250000.,9999999.0,NULL
+lwb,bbtab,k_lin_p.275000.,9999999.0,NULL
+lwb,bbtab,k_lin_p.300000.,9999999.0,NULL
+lwb,bbtab,k_lin_p.325000.,9999999.0,NULL
+lwb,bbtab,k_lin_p.350000.,9999999.0,NULL
+lwb,bbtab,k_lin_p.375000.,9999999.0,NULL
+lwb,bbtab,k_lin_p.400000.,9999999.0,NULL
+lwb,bbtab,k_lin_p.500000.,9999999.0,NULL
+lwb,bbtab,k_path_n.0002.,0.0, Sat  
+lwb,bbtab,k_path_n.0004.,0.0, Sat  
+lwb,bbtab,k_path_n.0006.,0.01, Sat  
+lwb,bbtab,k_path_n.0008.,0.02, Sat  
+lwb,bbtab,k_path_n.0010.,0.03, Sat  
+lwb,bbtab,k_path_n.0012.,0.04, Sat  
+lwb,bbtab,k_path_n.0014.,0.06, Sat  
+lwb,bbtab,k_path_n.0016.,0.1, Sat  
+lwb,bbtab,k_path_n.0018.,0.14, Sat  
+lwb,bbtab,k_path_n.0020.,0.18, Sat  
+lwb,bbtab,k_path_n.0030.,0.56, Sat  
+lwb,bbtab,k_path_n.0040.,1.34, Sat  
+lwb,bbtab,k_path_n.0050.,2.24, Sat  
+lwb,bbtab,k_path_n.0060.,4.47, Sat  
+lwb,bbtab,k_path_n.0070.,6.67, Sat  
+lwb,bbtab,k_path_n.0080.,9.73, Sat  
+lwb,bbtab,k_path_n.0090.,15.46, Sat  
+lwb,bbtab,k_path_n.0100.,21.98, Sat  
+lwb,bbtab,k_path_n.0110.,28.57, Sat  
+lwb,bbtab,k_path_n.0120.,42.83, Sat  
+lwb,bbtab,k_path_n.0130.,58.12, Sat  
+lwb,bbtab,k_path_n.0140.,70.5, Sat  
+lwb,bbtab,k_path_n.0150.,94.42, Sat  
+lwb,bbtab,k_path_n.0160.,121.22, Sat  
+lwb,bbtab,k_path_n.0170.,142.6, Sat  
+lwb,bbtab,k_path_n.0180.,190.79, Sat  
+lwb,bbtab,k_path_n.0190.,233.33, Sat  
+lwb,bbtab,k_path_n.0200.,259.11, Sat  
+lwb,bbtab,k_path_n.0210.,316.76, Sat  
+lwb,bbtab,k_path_n.0220.,376.12, Sat  
+lwb,bbtab,k_path_n.0230.,399.44, Sat  
+lwb,bbtab,k_path_n.0240.,482.12, Sat  
+lwb,bbtab,k_path_n.0250.,580.37, Sat  
+lwb,bbtab,k_path_n.0260.,659.17, Sat  
+lwb,bbtab,k_path_n.0270.,760.64, Sat  
+lwb,bbtab,k_path_n.0280.,859.79, Sat  
+lwb,bbtab,k_path_n.0290.,886.19, Sat  
+lwb,bbtab,k_path_n.0300.,9999999.0,NULL
+lwb,bbtab,k_path_n.0310.,9999999.0,NULL
+lwb,bbtab,k_path_n.0320.,9999999.0,NULL
+lwb,bbtab,k_path_n.0330.,9999999.0,NULL
+lwb,bbtab,k_path_n.0340.,9999999.0,NULL
+lwb,bbtab,k_path_n.0350.,9999999.0,NULL
+lwb,bbtab,k_path_n.0360.,9999999.0,NULL
+lwb,bbtab,k_path_n.0370.,9999999.0,NULL
+lwb,bbtab,k_path_n.0380.,9999999.0,NULL
+lwb,bbtab,k_path_n.0390.,9999999.0,NULL
+lwb,bbtab,k_path_n.0400.,9999999.0,NULL
+lwb,bbtab,k_path_n.0500.,9999999.0,NULL
+lwb,bbtab,k_path_n.0600.,9999999.0,NULL
+lwb,bbtab,k_path_n.0700.,9999999.0,NULL
+lwb,bbtab,k_path_n.0800.,9999999.0,NULL
+lwb,bbtab,k_path_n.0900.,9999999.0,NULL
+lwb,bbtab,k_path_n.1000.,9999999.0,NULL
+lwb,bbtab,k_path_n.1100.,9999999.0,NULL
+lwb,bbtab,k_path_n.1200.,9999999.0,NULL
+lwb,bbtab,k_path_p.0002.,0.0, Unsat
+lwb,bbtab,k_path_p.0004.,0.0, Unsat
+lwb,bbtab,k_path_p.0006.,0.0, Unsat
+lwb,bbtab,k_path_p.0008.,0.01, Unsat
+lwb,bbtab,k_path_p.0010.,0.02, Unsat
+lwb,bbtab,k_path_p.0012.,0.04, Unsat
+lwb,bbtab,k_path_p.0014.,0.05, Unsat
+lwb,bbtab,k_path_p.0016.,0.09, Unsat
+lwb,bbtab,k_path_p.0018.,0.14, Unsat
+lwb,bbtab,k_path_p.0020.,0.18, Unsat
+lwb,bbtab,k_path_p.0030.,0.6, Unsat
+lwb,bbtab,k_path_p.0040.,1.49, Unsat
+lwb,bbtab,k_path_p.0050.,2.53, Unsat
+lwb,bbtab,k_path_p.0060.,5.18, Unsat
+lwb,bbtab,k_path_p.0070.,7.8, Unsat
+lwb,bbtab,k_path_p.0080.,10.88, Unsat
+lwb,bbtab,k_path_p.0090.,18.45, Unsat
+lwb,bbtab,k_path_p.0100.,26.25, Unsat
+lwb,bbtab,k_path_p.0110.,33.59, Unsat
+lwb,bbtab,k_path_p.0120.,49.12, Unsat
+lwb,bbtab,k_path_p.0130.,70.92, Unsat
+lwb,bbtab,k_path_p.0140.,89.8, Unsat
+lwb,bbtab,k_path_p.0150.,116.19, Unsat
+lwb,bbtab,k_path_p.0160.,150.08, Unsat
+lwb,bbtab,k_path_p.0170.,182.48, Unsat
+lwb,bbtab,k_path_p.0180.,242.34, Unsat
+lwb,bbtab,k_path_p.0190.,296.22, Unsat
+lwb,bbtab,k_path_p.0200.,331.94, Unsat
+lwb,bbtab,k_path_p.0210.,398.74, Unsat
+lwb,bbtab,k_path_p.0220.,471.39, Unsat
+lwb,bbtab,k_path_p.0230.,508.69, Unsat
+lwb,bbtab,k_path_p.0240.,618.34, Unsat
+lwb,bbtab,k_path_p.0250.,744.7, Unsat
+lwb,bbtab,k_path_p.0260.,854.03, Unsat
+lwb,bbtab,k_path_p.0270.,986.68, Unsat
+lwb,bbtab,k_path_p.0280.,9999999.0,NULL
+lwb,bbtab,k_path_p.0290.,9999999.0,NULL
+lwb,bbtab,k_path_p.0300.,9999999.0,NULL
+lwb,bbtab,k_path_p.0310.,9999999.0,NULL
+lwb,bbtab,k_path_p.0320.,9999999.0,NULL
+lwb,bbtab,k_path_p.0330.,9999999.0,NULL
+lwb,bbtab,k_path_p.0340.,9999999.0,NULL
+lwb,bbtab,k_path_p.0350.,9999999.0,NULL
+lwb,bbtab,k_path_p.0360.,9999999.0,NULL
+lwb,bbtab,k_path_p.0370.,9999999.0,NULL
+lwb,bbtab,k_path_p.0380.,9999999.0,NULL
+lwb,bbtab,k_path_p.0390.,9999999.0,NULL
+lwb,bbtab,k_path_p.0400.,9999999.0,NULL
+lwb,bbtab,k_path_p.0500.,9999999.0,NULL
+lwb,bbtab,k_path_p.0600.,9999999.0,NULL
+lwb,bbtab,k_path_p.0700.,9999999.0,NULL
+lwb,bbtab,k_path_p.0800.,9999999.0,NULL
+lwb,bbtab,k_path_p.0900.,9999999.0,NULL
+lwb,bbtab,k_path_p.1000.,9999999.0,NULL
+lwb,bbtab,k_path_p.1100.,9999999.0,NULL
+lwb,bbtab,k_path_p.1200.,9999999.0,NULL
+lwb,bbtab,k_ph_n.0002.,0.0, Sat  
+lwb,bbtab,k_ph_n.0004.,0.0, Sat  
+lwb,bbtab,k_ph_n.0006.,0.0, Sat  
+lwb,bbtab,k_ph_n.0008.,0.12, Sat  
+lwb,bbtab,k_ph_n.0010.,9.66, Sat  
+lwb,bbtab,k_ph_n.0012.,9999999.0,NULL
+lwb,bbtab,k_ph_n.0014.,9999999.0,NULL
+lwb,bbtab,k_ph_n.0016.,9999999.0,NULL
+lwb,bbtab,k_ph_n.0018.,9999999.0,NULL
+lwb,bbtab,k_ph_n.0020.,9999999.0,NULL
+lwb,bbtab,k_ph_n.0025.,9999999.0,NULL
+lwb,bbtab,k_ph_n.0030.,9999999.0,NULL
+lwb,bbtab,k_ph_n.0035.,9999999.0,NULL
+lwb,bbtab,k_ph_n.0040.,9999999.0,NULL
+lwb,bbtab,k_ph_n.0045.,0.0, Sat  
+lwb,bbtab,k_ph_n.0050.,9999999.0,NULL
+lwb,bbtab,k_ph_n.0055.,9999999.0,NULL
+lwb,bbtab,k_ph_n.0060.,9999999.0,NULL
+lwb,bbtab,k_ph_n.0065.,9999999.0,NULL
+lwb,bbtab,k_ph_n.0070.,9999999.0,NULL
+lwb,bbtab,k_ph_n.0075.,9999999.0,NULL
+lwb,bbtab,k_ph_n.0080.,9999999.0,NULL
+lwb,bbtab,k_ph_n.0085.,9999999.0,NULL
+lwb,bbtab,k_ph_n.0090.,9999999.0,NULL
+lwb,bbtab,k_ph_n.0095.,9999999.0,NULL
+lwb,bbtab,k_ph_n.0100.,9999999.0,NULL
+lwb,bbtab,k_ph_n.0105.,9999999.0,NULL
+lwb,bbtab,k_ph_n.0110.,9999999.0,NULL
+lwb,bbtab,k_ph_n.0115.,9999999.0,NULL
+lwb,bbtab,k_ph_n.0120.,9999999.0,NULL
+lwb,bbtab,k_ph_n.0125.,9999999.0,NULL
+lwb,bbtab,k_ph_n.0130.,9999999.0,NULL
+lwb,bbtab,k_ph_n.0135.,9999999.0,NULL
+lwb,bbtab,k_ph_n.0140.,9999999.0,NULL
+lwb,bbtab,k_ph_n.0145.,9999999.0,NULL
+lwb,bbtab,k_ph_n.0150.,9999999.0,NULL
+lwb,bbtab,k_ph_n.0155.,9999999.0,NULL
+lwb,bbtab,k_ph_n.0160.,9999999.0,NULL
+lwb,bbtab,k_ph_n.0165.,9999999.0,NULL
+lwb,bbtab,k_ph_n.0170.,9999999.0,NULL
+lwb,bbtab,k_ph_n.0175.,9999999.0,NULL
+lwb,bbtab,k_ph_n.0180.,9999999.0,NULL
+lwb,bbtab,k_ph_n.0185.,9999999.0,NULL
+lwb,bbtab,k_ph_n.0190.,9999999.0,NULL
+lwb,bbtab,k_ph_n.0195.,9999999.0,NULL
+lwb,bbtab,k_ph_n.0200.,9999999.0,NULL
+lwb,bbtab,k_ph_n.0205.,9999999.0,NULL
+lwb,bbtab,k_ph_n.0210.,9999999.0,NULL
+lwb,bbtab,k_ph_n.0215.,9999999.0,NULL
+lwb,bbtab,k_ph_n.0220.,9999999.0,NULL
+lwb,bbtab,k_ph_n.0225.,9999999.0,NULL
+lwb,bbtab,k_ph_n.0230.,9999999.0,NULL
+lwb,bbtab,k_ph_n.0235.,9999999.0,NULL
+lwb,bbtab,k_ph_n.0240.,9999999.0,NULL
+lwb,bbtab,k_ph_n.0245.,9999999.0,NULL
+lwb,bbtab,k_ph_n.0250.,9999999.0,NULL
+lwb,bbtab,k_ph_p.0001.,0.0, Unsat
+lwb,bbtab,k_ph_p.0002.,0.0, Unsat
+lwb,bbtab,k_ph_p.0003.,0.0, Unsat
+lwb,bbtab,k_ph_p.0004.,0.0, Unsat
+lwb,bbtab,k_ph_p.0005.,0.0, Unsat
+lwb,bbtab,k_ph_p.0006.,0.0, Unsat
+lwb,bbtab,k_ph_p.0007.,0.02, Unsat
+lwb,bbtab,k_ph_p.0008.,0.19, Unsat
+lwb,bbtab,k_ph_p.0009.,2.25, Unsat
+lwb,bbtab,k_ph_p.0010.,18.41, Unsat
+lwb,bbtab,k_ph_p.0011.,261.0, Unsat
+lwb,bbtab,k_ph_p.0012.,9999999.0,NULL
+lwb,bbtab,k_ph_p.0013.,9999999.0,NULL
+lwb,bbtab,k_ph_p.0014.,9999999.0,NULL
+lwb,bbtab,k_ph_p.0015.,9999999.0,NULL
+lwb,bbtab,k_ph_p.0016.,9999999.0,NULL
+lwb,bbtab,k_ph_p.0017.,9999999.0,NULL
+lwb,bbtab,k_ph_p.0018.,9999999.0,NULL
+lwb,bbtab,k_ph_p.0019.,9999999.0,NULL
+lwb,bbtab,k_ph_p.0020.,9999999.0,NULL
+lwb,bbtab,k_ph_p.0021.,9999999.0,NULL
+lwb,bbtab,k_ph_p.0022.,9999999.0,NULL
+lwb,bbtab,k_ph_p.0023.,9999999.0,NULL
+lwb,bbtab,k_ph_p.0024.,9999999.0,NULL
+lwb,bbtab,k_ph_p.0025.,9999999.0,NULL
+lwb,bbtab,k_ph_p.0026.,9999999.0,NULL
+lwb,bbtab,k_ph_p.0027.,9999999.0,NULL
+lwb,bbtab,k_ph_p.0028.,9999999.0,NULL
+lwb,bbtab,k_ph_p.0029.,9999999.0,NULL
+lwb,bbtab,k_ph_p.0030.,9999999.0,NULL
+lwb,bbtab,k_ph_p.0031.,9999999.0,NULL
+lwb,bbtab,k_ph_p.0032.,9999999.0,NULL
+lwb,bbtab,k_ph_p.0033.,9999999.0,NULL
+lwb,bbtab,k_ph_p.0034.,9999999.0,NULL
+lwb,bbtab,k_ph_p.0035.,9999999.0,NULL
+lwb,bbtab,k_ph_p.0036.,9999999.0,NULL
+lwb,bbtab,k_ph_p.0037.,9999999.0,NULL
+lwb,bbtab,k_ph_p.0038.,9999999.0,NULL
+lwb,bbtab,k_ph_p.0039.,9999999.0,NULL
+lwb,bbtab,k_ph_p.0040.,9999999.0,NULL
+lwb,bbtab,k_ph_p.0041.,9999999.0,NULL
+lwb,bbtab,k_ph_p.0042.,9999999.0,NULL
+lwb,bbtab,k_ph_p.0043.,9999999.0,NULL
+lwb,bbtab,k_ph_p.0044.,9999999.0,NULL
+lwb,bbtab,k_ph_p.0045.,9999999.0,NULL
+lwb,bbtab,k_ph_p.0046.,9999999.0,NULL
+lwb,bbtab,k_ph_p.0047.,9999999.0,NULL
+lwb,bbtab,k_ph_p.0048.,9999999.0,NULL
+lwb,bbtab,k_ph_p.0050.,9999999.0,NULL
+lwb,bbtab,k_ph_p.0051.,9999999.0,NULL
+lwb,bbtab,k_ph_p.0052.,9999999.0,NULL
+lwb,bbtab,k_ph_p.0053.,9999999.0,NULL
+lwb,bbtab,k_ph_p.0054.,9999999.0,NULL
+lwb,bbtab,k_ph_p.0055.,9999999.0,NULL
+lwb,bbtab,k_ph_p.0056.,9999999.0,NULL
+lwb,bbtab,k_poly_n.0002.,0.0, Sat  
+lwb,bbtab,k_poly_n.0004.,0.0, Sat  
+lwb,bbtab,k_poly_n.0006.,0.0, Sat  
+lwb,bbtab,k_poly_n.0008.,0.0, Sat  
+lwb,bbtab,k_poly_n.0010.,0.0, Sat  
+lwb,bbtab,k_poly_n.0012.,0.01, Sat  
+lwb,bbtab,k_poly_n.0014.,0.01, Sat  
+lwb,bbtab,k_poly_n.0016.,0.01, Sat  
+lwb,bbtab,k_poly_n.0018.,0.02, Sat  
+lwb,bbtab,k_poly_n.0020.,0.02, Sat  
+lwb,bbtab,k_poly_n.0040.,0.13, Sat  
+lwb,bbtab,k_poly_n.0060.,0.44, Sat  
+lwb,bbtab,k_poly_n.0080.,1.1, Sat  
+lwb,bbtab,k_poly_n.0100.,2.21, Sat  
+lwb,bbtab,k_poly_n.0120.,4.65, Sat  
+lwb,bbtab,k_poly_n.0140.,7.53, Sat  
+lwb,bbtab,k_poly_n.0160.,12.45, Sat  
+lwb,bbtab,k_poly_n.0180.,18.84, Sat  
+lwb,bbtab,k_poly_n.0200.,26.06, Sat  
+lwb,bbtab,k_poly_n.0220.,36.28, Sat  
+lwb,bbtab,k_poly_n.0240.,51.68, Sat  
+lwb,bbtab,k_poly_n.0260.,64.08, Sat  
+lwb,bbtab,k_poly_n.0280.,78.22, Sat  
+lwb,bbtab,k_poly_n.0300.,97.21, Sat  
+lwb,bbtab,k_poly_n.0320.,122.23, Sat  
+lwb,bbtab,k_poly_n.0340.,157.6, Sat  
+lwb,bbtab,k_poly_n.0360.,178.27, Sat  
+lwb,bbtab,k_poly_n.0380.,213.97, Sat  
+lwb,bbtab,k_poly_n.0400.,238.87, Sat  
+lwb,bbtab,k_poly_n.0420.,278.87, Sat  
+lwb,bbtab,k_poly_n.0440.,328.47, Sat  
+lwb,bbtab,k_poly_n.0460.,386.24, Sat  
+lwb,bbtab,k_poly_n.0480.,463.44, Sat  
+lwb,bbtab,k_poly_n.0500.,507.44, Sat  
+lwb,bbtab,k_poly_n.0520.,588.49, Sat  
+lwb,bbtab,k_poly_n.0540.,665.39, Sat  
+lwb,bbtab,k_poly_n.0560.,742.96, Sat  
+lwb,bbtab,k_poly_n.0580.,852.79, Sat  
+lwb,bbtab,k_poly_n.0600.,986.82, Sat  
+lwb,bbtab,k_poly_n.0620.,9999999.0,NULL
+lwb,bbtab,k_poly_n.0640.,9999999.0,NULL
+lwb,bbtab,k_poly_n.0660.,9999999.0,NULL
+lwb,bbtab,k_poly_n.0680.,9999999.0,NULL
+lwb,bbtab,k_poly_n.0700.,9999999.0,NULL
+lwb,bbtab,k_poly_n.0720.,9999999.0,NULL
+lwb,bbtab,k_poly_n.0740.,9999999.0,NULL
+lwb,bbtab,k_poly_n.0760.,9999999.0,NULL
+lwb,bbtab,k_poly_n.0780.,9999999.0,NULL
+lwb,bbtab,k_poly_n.0800.,9999999.0,NULL
+lwb,bbtab,k_poly_n.0820.,9999999.0,NULL
+lwb,bbtab,k_poly_n.0840.,9999999.0,NULL
+lwb,bbtab,k_poly_n.0860.,9999999.0,NULL
+lwb,bbtab,k_poly_n.0880.,9999999.0,NULL
+lwb,bbtab,k_poly_n.0900.,9999999.0,NULL
+lwb,bbtab,k_poly_n.0920.,9999999.0,NULL
+lwb,bbtab,k_poly_n.0940.,9999999.0,NULL
+lwb,bbtab,k_poly_p.0002.,0.0, Unsat
+lwb,bbtab,k_poly_p.0004.,0.0, Unsat
+lwb,bbtab,k_poly_p.0006.,0.0, Unsat
+lwb,bbtab,k_poly_p.0008.,0.0, Unsat
+lwb,bbtab,k_poly_p.0010.,0.0, Unsat
+lwb,bbtab,k_poly_p.0012.,0.01, Unsat
+lwb,bbtab,k_poly_p.0014.,0.01, Unsat
+lwb,bbtab,k_poly_p.0016.,0.02, Unsat
+lwb,bbtab,k_poly_p.0018.,0.02, Unsat
+lwb,bbtab,k_poly_p.0020.,0.03, Unsat
+lwb,bbtab,k_poly_p.0040.,0.15, Unsat
+lwb,bbtab,k_poly_p.0060.,0.53, Unsat
+lwb,bbtab,k_poly_p.0080.,1.2, Unsat
+lwb,bbtab,k_poly_p.0100.,2.57, Unsat
+lwb,bbtab,k_poly_p.0120.,5.21, Unsat
+lwb,bbtab,k_poly_p.0140.,8.98, Unsat
+lwb,bbtab,k_poly_p.0160.,14.56, Unsat
+lwb,bbtab,k_poly_p.0180.,24.39, Unsat
+lwb,bbtab,k_poly_p.0200.,30.86, Unsat
+lwb,bbtab,k_poly_p.0220.,42.83, Unsat
+lwb,bbtab,k_poly_p.0240.,60.26, Unsat
+lwb,bbtab,k_poly_p.0260.,87.05, Unsat
+lwb,bbtab,k_poly_p.0280.,92.84, Unsat
+lwb,bbtab,k_poly_p.0300.,116.32, Unsat
+lwb,bbtab,k_poly_p.0320.,144.99, Unsat
+lwb,bbtab,k_poly_p.0340.,184.0, Unsat
+lwb,bbtab,k_poly_p.0360.,237.06, Unsat
+lwb,bbtab,k_poly_p.0380.,309.97, Unsat
+lwb,bbtab,k_poly_p.0400.,283.69, Unsat
+lwb,bbtab,k_poly_p.0420.,331.66, Unsat
+lwb,bbtab,k_poly_p.0440.,387.75, Unsat
+lwb,bbtab,k_poly_p.0460.,454.44, Unsat
+lwb,bbtab,k_poly_p.0480.,540.18, Unsat
+lwb,bbtab,k_poly_p.0500.,643.31, Unsat
+lwb,bbtab,k_poly_p.0520.,775.01, Unsat
+lwb,bbtab,k_poly_p.0540.,949.59, Unsat
+lwb,bbtab,k_poly_p.0560.,868.57, Unsat
+lwb,bbtab,k_poly_p.0580.,989.91, Unsat
+lwb,bbtab,k_poly_p.0600.,9999999.0,NULL
+lwb,bbtab,k_poly_p.0620.,9999999.0,NULL
+lwb,bbtab,k_poly_p.0640.,9999999.0,NULL
+lwb,bbtab,k_poly_p.0660.,9999999.0,NULL
+lwb,bbtab,k_poly_p.0680.,9999999.0,NULL
+lwb,bbtab,k_poly_p.0700.,9999999.0,NULL
+lwb,bbtab,k_poly_p.0720.,9999999.0,NULL
+lwb,bbtab,k_poly_p.0740.,9999999.0,NULL
+lwb,bbtab,k_poly_p.0760.,9999999.0,NULL
+lwb,bbtab,k_poly_p.0780.,9999999.0,NULL
+lwb,bbtab,k_poly_p.0800.,9999999.0,NULL
+lwb,bbtab,k_poly_p.0820.,9999999.0,NULL
+lwb,bbtab,k_poly_p.0840.,9999999.0,NULL
+lwb,bbtab,k_poly_p.0860.,9999999.0,NULL
+lwb,bbtab,k_poly_p.0880.,9999999.0,NULL
+lwb,bbtab,k_poly_p.0900.,9999999.0,NULL
+lwb,bbtab,k_poly_p.0920.,9999999.0,NULL
+lwb,bbtab,k_poly_p.0940.,9999999.0,NULL
+lwb,bbtab,k_t4p_n.00010.,0.0, Sat  
+lwb,bbtab,k_t4p_n.00020.,0.0, Sat  
+lwb,bbtab,k_t4p_n.00030.,0.01, Sat  
+lwb,bbtab,k_t4p_n.00040.,0.02, Sat  
+lwb,bbtab,k_t4p_n.00050.,0.03, Sat  
+lwb,bbtab,k_t4p_n.00060.,0.04, Sat  
+lwb,bbtab,k_t4p_n.00070.,0.05, Sat  
+lwb,bbtab,k_t4p_n.00080.,0.06, Sat  
+lwb,bbtab,k_t4p_n.00090.,0.09, Sat  
+lwb,bbtab,k_t4p_n.00100.,0.11, Sat  
+lwb,bbtab,k_t4p_n.00200.,0.5, Sat  
+lwb,bbtab,k_t4p_n.00300.,1.26, Sat  
+lwb,bbtab,k_t4p_n.00400.,2.44, Sat  
+lwb,bbtab,k_t4p_n.00500.,4.11, Sat  
+lwb,bbtab,k_t4p_n.00600.,6.41, Sat  
+lwb,bbtab,k_t4p_n.00700.,9.29, Sat  
+lwb,bbtab,k_t4p_n.00800.,12.9, Sat  
+lwb,bbtab,k_t4p_n.00900.,17.2, Sat  
+lwb,bbtab,k_t4p_n.01000.,22.85, Sat  
+lwb,bbtab,k_t4p_n.01100.,29.03, Sat  
+lwb,bbtab,k_t4p_n.01200.,38.23, Sat  
+lwb,bbtab,k_t4p_n.01300.,49.87, Sat  
+lwb,bbtab,k_t4p_n.01400.,57.74, Sat  
+lwb,bbtab,k_t4p_n.01500.,78.33, Sat  
+lwb,bbtab,k_t4p_n.01600.,91.67, Sat  
+lwb,bbtab,k_t4p_n.01700.,115.21, Sat  
+lwb,bbtab,k_t4p_n.01800.,132.36, Sat  
+lwb,bbtab,k_t4p_n.01900.,157.81, Sat  
+lwb,bbtab,k_t4p_n.02000.,184.59, Sat  
+lwb,bbtab,k_t4p_n.02100.,213.75, Sat  
+lwb,bbtab,k_t4p_n.02200.,245.51, Sat  
+lwb,bbtab,k_t4p_n.02300.,279.44, Sat  
+lwb,bbtab,k_t4p_n.02400.,314.0, Sat  
+lwb,bbtab,k_t4p_n.02500.,352.06, Sat  
+lwb,bbtab,k_t4p_n.02600.,390.56, Sat  
+lwb,bbtab,k_t4p_n.02700.,432.54, Sat  
+lwb,bbtab,k_t4p_n.02800.,474.76, Sat  
+lwb,bbtab,k_t4p_n.02900.,519.35, Sat  
+lwb,bbtab,k_t4p_n.03000.,568.47, Sat  
+lwb,bbtab,k_t4p_n.03500.,829.84, Sat  
+lwb,bbtab,k_t4p_n.04000.,9999999.0,NULL
+lwb,bbtab,k_t4p_n.04500.,9999999.0,NULL
+lwb,bbtab,k_t4p_n.05000.,9999999.0,NULL
+lwb,bbtab,k_t4p_n.05500.,9999999.0,NULL
+lwb,bbtab,k_t4p_n.06000.,9999999.0,NULL
+lwb,bbtab,k_t4p_n.06500.,9999999.0,NULL
+lwb,bbtab,k_t4p_n.07000.,9999999.0,NULL
+lwb,bbtab,k_t4p_n.07500.,9999999.0,NULL
+lwb,bbtab,k_t4p_n.08000.,9999999.0,NULL
+lwb,bbtab,k_t4p_n.09000.,9999999.0,NULL
+lwb,bbtab,k_t4p_n.10000.,9999999.0,NULL
+lwb,bbtab,k_t4p_n.11000.,9999999.0,NULL
+lwb,bbtab,k_t4p_n.12000.,9999999.0,NULL
+lwb,bbtab,k_t4p_n.13000.,9999999.0,NULL
+lwb,bbtab,k_t4p_n.14000.,9999999.0,NULL
+lwb,bbtab,k_t4p_n.15000.,9999999.0,NULL
+lwb,bbtab,k_t4p_p.00010.,0.0, Unsat
+lwb,bbtab,k_t4p_p.00020.,0.0, Unsat
+lwb,bbtab,k_t4p_p.00030.,0.0, Unsat
+lwb,bbtab,k_t4p_p.00040.,0.01, Unsat
+lwb,bbtab,k_t4p_p.00050.,0.01, Unsat
+lwb,bbtab,k_t4p_p.00060.,0.01, Unsat
+lwb,bbtab,k_t4p_p.00070.,0.01, Unsat
+lwb,bbtab,k_t4p_p.00080.,0.02, Unsat
+lwb,bbtab,k_t4p_p.00090.,0.02, Unsat
+lwb,bbtab,k_t4p_p.00100.,0.03, Unsat
+lwb,bbtab,k_t4p_p.00200.,0.11, Unsat
+lwb,bbtab,k_t4p_p.00300.,0.27, Unsat
+lwb,bbtab,k_t4p_p.00400.,0.53, Unsat
+lwb,bbtab,k_t4p_p.00500.,0.88, Unsat
+lwb,bbtab,k_t4p_p.00600.,1.33, Unsat
+lwb,bbtab,k_t4p_p.00700.,1.88, Unsat
+lwb,bbtab,k_t4p_p.00800.,2.57, Unsat
+lwb,bbtab,k_t4p_p.00900.,3.35, Unsat
+lwb,bbtab,k_t4p_p.01000.,4.26, Unsat
+lwb,bbtab,k_t4p_p.01100.,5.12, Unsat
+lwb,bbtab,k_t4p_p.01200.,6.27, Unsat
+lwb,bbtab,k_t4p_p.01300.,7.57, Unsat
+lwb,bbtab,k_t4p_p.01400.,9.01, Unsat
+lwb,bbtab,k_t4p_p.01500.,10.7, Unsat
+lwb,bbtab,k_t4p_p.01600.,12.44, Unsat
+lwb,bbtab,k_t4p_p.01700.,14.44, Unsat
+lwb,bbtab,k_t4p_p.01800.,16.85, Unsat
+lwb,bbtab,k_t4p_p.01900.,19.69, Unsat
+lwb,bbtab,k_t4p_p.02000.,22.28, Unsat
+lwb,bbtab,k_t4p_p.02100.,25.37, Unsat
+lwb,bbtab,k_t4p_p.02200.,28.77, Unsat
+lwb,bbtab,k_t4p_p.02300.,32.32, Unsat
+lwb,bbtab,k_t4p_p.02400.,36.52, Unsat
+lwb,bbtab,k_t4p_p.02500.,41.81, Unsat
+lwb,bbtab,k_t4p_p.02600.,46.89, Unsat
+lwb,bbtab,k_t4p_p.02700.,52.72, Unsat
+lwb,bbtab,k_t4p_p.02800.,58.35, Unsat
+lwb,bbtab,k_t4p_p.02900.,64.98, Unsat
+lwb,bbtab,k_t4p_p.03000.,74.4, Unsat
+lwb,bbtab,k_t4p_p.03500.,113.31, Unsat
+lwb,bbtab,k_t4p_p.04000.,178.05, Unsat
+lwb,bbtab,k_t4p_p.04500.,255.47, Unsat
+lwb,bbtab,k_t4p_p.05000.,347.96, Unsat
+lwb,bbtab,k_t4p_p.05500.,450.03, Unsat
+lwb,bbtab,k_t4p_p.06000.,567.03, Unsat
+lwb,bbtab,k_t4p_p.06500.,694.07, Unsat
+lwb,bbtab,k_t4p_p.07000.,833.37, Unsat
+lwb,bbtab,k_t4p_p.07500.,986.01, Unsat
+lwb,bbtab,k_t4p_p.08000.,9999999.0,NULL
+lwb,bbtab,k_t4p_p.09000.,9999999.0,NULL
+lwb,bbtab,k_t4p_p.10000.,9999999.0,NULL
+lwb,bbtab,k_t4p_p.11000.,9999999.0,NULL
+lwb,bbtab,k_t4p_p.12000.,9999999.0,NULL
+lwb,bbtab,k_t4p_p.13000.,9999999.0,NULL
+lwb,bbtab,k_t4p_p.14000.,9999999.0,NULL
+lwb,bbtab,k_t4p_p.15000.,9999999.0,NULL

@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Analysing and Visualising Benchmarks</title>
+</head>
+<body>
+    <div class="container">
+        <!-- Upload Section -->
+        <div class="card">
+            <h2>Upload a CSV or log file</h2>
+            <form id="uploadForm" action="/upload" method="post" enctype="multipart/form-data">
+                <input type="file" name="file" required>
+                <button type="submit">Upload CSV</button>
+            </form>
+        </div>
+    
+        <!-- Run Custom SQL Query Section -->
+        <div class="card">
+            <h2>Run Custom SQL Query</h2>
+            <form id="sqlForm" action="/query" method="POST">
+                <textarea id="sqlQuery" name="sql_query" rows="4" cols="50" placeholder="Enter your SQL query here..."></textarea><br><br>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+
+        <div class="card">
+                <h2>Query Benchmark Data</h2>
+            
+                <!-- Predefined Filters -->
+                <form id="filterForm" action="/filter" method="POST">
+                    <label for="prover_name">Prover:</label>
+                    <input type="text" id="prover_name" name="prover_name"><br><br>
+                
+                    <label for="problem">System:</label>
+                    <input type="text" id="system_name" name="system_name"><br><br>
+                
+                    <label for="exec_time">Execution Time:</label>
+                    <input type="text" id="exec_time" name="exec_time"><br><br>
+            
+                    <label for="result">Result:</label>
+                    <input type="text" id="result" name="result"><br><br>
+                
+                    <input type="submit" value="Filter Results">
+                </form>
+        </div>
+       
+        <div class = 'card'>
+            <h2>Calculate Average Execution Time</h2>
+            <form id="aggregateForm" action="/aggregate" method="POST">
+                <label for="prover_name_agg">Prover:</label>
+                <input type="text" id="prover_name_agg" name="prover_name"><br><br>
+        
+                <input type="submit" value="Calculate Average">
+            </form>
+        </div>
+        
+        <div class="card">
+            <h2>Compare systems</h2>
+            <form id="compareForm" class="compare-form">
+                <div>
+                    <h3>Select Prover:</h3>
+                    <input type="radio" id="3cnf2" name="prover" value="3CNF2" required>
+                    <label for="3cnf2">3CNF2</label>                        <input type="radio" id="lwb" name="prover" value="lwb" required>
+                     <label for="lwb">lwb</label>
+                    <input type="radio" id="mqbf" name="prover" value="qbf" required>                        <label for="mqbf">qbf</label>
+                </div>
+            
+                <div>
+                    <h3>Select Systems:</h3>
+                    <input type="checkbox" id="bbtab" name="system" value="bbtab">
+                    <label for="bbtab">bbtab</label>
+                    <input type="checkbox" id="ksp" name="system" value="ksp">
+                    <label for="ksp">ksp</label>
+                    <input type="checkbox" id="vampire" name="system" value="vampire">
+                    <label for="vampire">vampire</label>
+                    <input type="checkbox" id="spartacus" name="system" value="spartacus">
+                    <label for="spartacus">spartacus</label>
+                    <input type="checkbox" id="inkresat" name="system" value="inkresat">
+                    <label for="inkresat">inkresat</label>
+                </div>
+        
+                <button type="submit">Compare</button>
+            </form>
+        </div>
+
+        <div class="card">
+            <h2>Visualization</h2>
+        
+            <form id="visualizeForm">
+                <label for="prover">Select Prover:</label>
+                <select name="prover" id="prover">
+                    <option value="3CNF2">3CNF2</option>
+                    <option value="lwb">lwb</option>
+                    <option value="qbf">qbf</option>
+                </select><br><br>
+        
+                <label for="chartType">Select Visualization Type:</label>
+                <select name="chartType" id="chartType">
+                    <option value="bar">Bar Chart</option>
+                    <option value="heatmap">Heatmap</option>
+                </select><br><br>
+        
+                <input type="submit" value="Generate">
+            </form>
+        </div>
+
+        <div class="card pca-card">
+            <h2>PCA Data Viewer</h2>
+            <form id="pcaForm">
+                <label>Select Prover:</label><br>
+                <input type="radio" name="prover" value="3CNF2" checked> 3CNF2<br>
+                <input type="radio" name="prover" value="lwb"> lwb<br>
+                <input type="radio" name="prover" value="qbf"> qbf<br><br>
+    
+                <label for="systemSelect">Select System:</label>
+                <select id="systemSelect" name="system">
+                    <option value="vampire">Vampire</option>
+                    <option value="bbtab">bbtab</option>
+                    <option value="spartacus">spartacus</option>
+                    <option value="inkresat">inkresat</option>
+                    <option value="ksp">ksp</option>
+                    <!-- Add more systems as needed -->
+                </select><br><br>
+    
+                <button type="submit">View Data</button>
+            </form>
+        </div>
+    
+        <!-- Modal -->
+        <div id="pcaTableModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2>Selected PCA Data</h2>
+                <div id="pcaTableContainer"></div>
+            </div>
+        </div>
+
+        
+
+
+        <div id="averageTimeModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2>Average Execution Time</h2>
+                <p id="averageTimeDisplay">No data available.</p>
+            </div>
+        </div>
+
+        
+    <div id="uploadModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Upload Status</h2>
+            <p id="uploadStatus"></p>
+        </div>
+    </div>
+    
+    <div id="sqlModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>SQL Query Results</h2>
+            <div id="sqlResultDisplay">No data available.</div>
+        </div>
+    </div>
+
+    <div id="filterModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Filtered Results</h2>
+            <div id="filterResultDisplay">No data available.</div>
+        </div>
+    </div>
+
+    <!-- For Comparison Chart Modal -->
+    <div id="chartModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Comparison Chart</h2>
+            <canvas id="compareChartContainer"></canvas> <!-- Changed to canvas -->
+        </div>
+    </div>
+    
+    
+    <!-- For Visualization Modal -->
+    <div id="visualizeModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Visualization</h2>
+            <div id="visualizeChartContainer"> <!-- Updated ID -->
+            <!-- Plotly charts will render here -->
+            </div>
+        </div>
+    </div>
+
+
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+
+    const uploadForm = document.getElementById('uploadForm');
+    const uploadModal = document.getElementById('uploadModal');
+    const uploadCloseModal = uploadModal.querySelector('.close');
+    const uploadStatus = document.getElementById('uploadStatus');
+
+    uploadForm.addEventListener('submit', function(event) {
+        event.preventDefault();
+        const formData = new FormData(uploadForm);
+
+        fetch('/upload', {
+            method: 'POST',
+            body: formData
+        })
+        .then(response => response.text())
+        .then(data => {
+            uploadStatus.textContent = data;
+            uploadModal.style.display = 'block';
+        })
+        .catch(error => {
+            uploadStatus.textContent = 'There was an error processing the file.';
+            uploadModal.style.display = 'block';
+        });
+    });
+
+    uploadCloseModal.addEventListener('click', function() {
+        uploadModal.style.display = 'none';
+    });
+
+    window.addEventListener('click', function(event) {
+        if (event.target === uploadModal) {
+            uploadModal.style.display = 'none';
+        }
+        if (event.target === averageTimeModal) {
+            averageTimeModal.style.display = 'none';
+        }
+    });
+    
+
+
+    // Handle SQL query submission
+    const sqlForm = document.getElementById('sqlForm');
+    const sqlModal = document.getElementById('sqlModal');
+    const sqlCloseModal = sqlModal.querySelector('.close');
+    const sqlResultDisplay = document.getElementById('sqlResultDisplay');
+
+    sqlForm.addEventListener('submit', function(event) {
+        event.preventDefault(); // Prevent the form from submitting traditionally
+
+        const sqlQuery = document.querySelector('#sqlQuery').value.trim();
+
+        fetch('/query', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({ sql_query: sqlQuery })
+        })
+        .then(response => response.json())
+        .then(data => {
+            // Format the result data and display it in the modal
+            if (Array.isArray(data) && data.length > 0) {
+                sqlResultDisplay.innerHTML = formatResultsTable(data);
+            } else {
+                sqlResultDisplay.textContent = 'No results found.';
+            }
+            sqlModal.style.display = 'block'; // Display the modal
+        })
+        .catch(error => {
+            console.error('Error:', error);
+            sqlResultDisplay.textContent = 'An error occurred while processing the query.';
+            sqlModal.style.display = 'block'; // Display the modal even on error
+        });
+    });
+
+    // Function to format the result data into a table
+    function formatResultsTable(data) {
+        let tableHtml = '<table><thead><tr>';
+        // Create table headers
+        Object.keys(data[0]).forEach(key => {
+            tableHtml += `<th>${key}</th>`;
+        });
+        tableHtml += '</tr></thead><tbody>';
+
+        // Create table rows
+        data.forEach(row => {
+            tableHtml += '<tr>';
+            Object.values(row).forEach(value => {
+                tableHtml += `<td>${value}</td>`;
+            });
+            tableHtml += '</tr>';
+        });
+
+        tableHtml += '</tbody></table>';
+        return tableHtml;
+    }
+
+    // Close the modal when the user clicks the close button
+    sqlCloseModal.addEventListener('click', function() {
+        sqlModal.style.display = 'none';
+    });
+
+    // Close the modal if the user clicks outside the modal content
+    window.addEventListener('click', function(event) {
+        if (event.target === sqlModal) {
+            sqlModal.style.display = 'none';
+        }
+    });
+    
+    // Handle average execution time calculation
+    const aggregateForm = document.getElementById('aggregateForm');
+    const averageTimeModal = document.getElementById('averageTimeModal');
+    const averageTimeCloseModal = averageTimeModal.querySelector('.close');
+    const averageTimeDisplay = document.getElementById('averageTimeDisplay');
+
+    aggregateForm.addEventListener('submit', function(event) {
+        event.preventDefault();
+
+        fetch('/aggregate', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({
+                prover_name: document.querySelector('#prover_name_agg').value,
+            })
+        })
+        .then(response => response.json())
+        .then(data => {
+            const avgTime = data[0]?.avg_execution_time || 'No data found';
+            averageTimeDisplay.textContent = `Average Execution Time: ${avgTime}`;
+            averageTimeModal.style.display = 'block';
+        })
+        .catch(error => {
+            console.error('Error:', error);
+            averageTimeDisplay.textContent = 'An error occurred while calculating the average.';
+            averageTimeModal.style.display = 'block';
+        });
+    });
+
+    averageTimeCloseModal.addEventListener('click', function() {
+        averageTimeModal.style.display = 'none';
+    });
+
+    // Close the modal if the user clicks outside the modal content
+    window.addEventListener('click', function(event) {
+        if (event.target === uploadModal) {
+            uploadModal.style.display = 'none';
+        }
+        if (event.target === averageTimeModal) {
+            averageTimeModal.style.display = 'none';
+        }
+    });
+
+    const filterForm = document.getElementById('filterForm');
+    const filterModal = document.getElementById('filterModal');
+    const filterCloseModal = filterModal.querySelector('.close');
+    const filterResultDisplay = document.getElementById('filterResultDisplay');
+
+    filterForm.addEventListener('submit', function(event) {
+        event.preventDefault(); // Prevent the form from submitting the traditional way
+
+        fetch('/filter', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({
+                prover_name: document.querySelector('#prover_name').value.trim(),
+                system_name: document.querySelector('#system_name').value.trim(),
+                exec_time: document.querySelector('#exec_time').value.trim(),
+                result: document.querySelector('#result').value.trim()
+            })
+        })
+        .then(response => response.json())
+        .then(data => {
+            // Format the result data and display it in the modal
+            if (Array.isArray(data) && data.length > 0) {
+                filterResultDisplay.innerHTML = formatResultsTable(data);
+            } else {
+                filterResultDisplay.textContent = 'No results found.';
+            }
+            filterModal.style.display = 'block'; // Display the modal
+        })
+        .catch(error => {
+            console.error('Error:', error);
+            filterResultDisplay.textContent = 'An error occurred while processing the filter.';
+            filterModal.style.display = 'block'; // Display the modal even on error
+        });
+    });
+
+    // Function to format the result data into a table
+    function formatResultsTable(data) {
+        let tableHtml = '<table><thead><tr>';
+        // Create table headers
+        Object.keys(data[0]).forEach(key => {
+            tableHtml += `<th>${key}</th>`;
+        });
+        tableHtml += '</tr></thead><tbody>';
+
+        // Create table rows
+        data.forEach(row => {
+            tableHtml += '<tr>';
+            Object.values(row).forEach(value => {
+                tableHtml += `<td>${value}</td>`;
+            });
+            tableHtml += '</tr>';
+        });
+
+        tableHtml += '</tbody></table>';
+        return tableHtml;
+    }
+
+    // Close the modal when the user clicks the close button
+    filterCloseModal.addEventListener('click', function() {
+        filterModal.style.display = 'none';
+    });
+
+    // Close the modal if the user clicks outside the modal content
+    window.addEventListener('click', function(event) {
+        if (event.target === filterModal) {
+            filterModal.style.display = 'none';
+        }
+    });
+    
+    
+
+    // Variables for modals
+    const compareForm = document.getElementById('compareForm');
+    const chartModal = document.getElementById('chartModal');
+    const chartModalClose = chartModal.querySelector('.close');
+    const compareChartContainer = document.getElementById('compareChartContainer');
+    let chartInstance;
+
+    const visualizeForm = document.getElementById('visualizeForm');
+    const visualizeModal = document.getElementById('visualizeModal');
+    const visualizeModalClose = visualizeModal.querySelector('.close');
+    const visualizeChartContainer = document.getElementById('visualizeChartContainer');
+
+    // Handle form submission for comparison
+    compareForm.addEventListener('submit', function(event) {
+        event.preventDefault();
+
+        const prover = document.querySelector('input[name="prover"]:checked').value;
+        const systems = Array.from(document.querySelectorAll('input[name="system"]:checked')).map(cb => cb.value);
+
+        fetch('/compare', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({ prover: prover, systems: systems })
+        })
+        .then(response => response.json())
+        .then(data => {
+            // Clear the previous chart if exists
+            if (chartInstance) {
+                chartInstance.destroy();
+            }
+
+            // Render the new chart
+            chartInstance = new Chart(compareChartContainer.getContext('2d'), {
+                type: 'scatter',
+                data: {
+                    datasets: data.map(systemData => ({
+                        label: systemData.system,
+                        data: systemData.executionTimes.map((time, index) => ({ x: systemData.indices[index], y: time })),
+                        backgroundColor: systemData.color,
+                        borderColor: systemData.color,
+                        fill: false,
+                        showLine: true,
+                        pointRadius: 3,
+                        tension: 0.1
+                    }))
+                },
+                options: {
+                    scales: {
+                        x: { type: 'linear', title: { display: true, text: 'Instances Solved' }},
+                        y: { title: { display: true, text: 'Execution Time (ms)' }, min: 0, beginAtZero: true }
+                    },
+                    plugins: {
+                        legend: { position: 'top' },
+                        title: { display: true, text: 'Cactus Plot of Execution Times Across Systems' }
+                    }
+                }
+            });
+
+            chartModal.style.display = 'block';
+        })
+        .catch(error => console.error('Error:', error));
+    });
+
+    // Handle form submission for visualization
+    visualizeForm.addEventListener('submit', function(event) {
+        event.preventDefault();
+
+        const prover = document.getElementById('prover').value;
+        const chartType = document.getElementById('chartType').value;
+
+        fetch('/visualize', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ prover: prover })
+        })
+        .then(response => response.json())
+        .then(data => {
+            visualizeChartContainer.innerHTML = ''; // Clear any previous chart
+
+            if (chartType === 'bar') {
+                renderBarChart(data);
+            } else if (chartType === 'heatmap') {
+                renderHeatmap(data);
+            }
+
+            visualizeModal.style.display = 'block';
+        })
+        .catch(error => console.error('Error fetching data:', error));
+    });
+
+    // Close modals when the close button is clicked
+    chartModalClose.addEventListener('click', () => chartModal.style.display = 'none');
+    visualizeModalClose.addEventListener('click', () => visualizeModal.style.display = 'none');
+
+    // Close modals if the user clicks outside the modal content
+    window.addEventListener('click', event => {
+        if (event.target === chartModal) {
+            chartModal.style.display = 'none';
+        }
+        if (event.target === visualizeModal) {
+            visualizeModal.style.display = 'none';
+        }
+    });
+
+    // Function to render the bar chart using Plotly
+    function renderBarChart(data) {
+        const datasets = data.map(systemData => ({
+            x: systemData.result.map((r, index) => r),
+            y: systemData.executionTimes,
+            type: 'bar',
+            name: systemData.system,
+            marker: { color: systemData.color }
+        }));
+
+        const layout = {
+            title: 'Bar Chart of Execution Times',
+            xaxis: { title: 'Result' },
+            yaxis: { title: 'Execution Time (seconds)' }
+        };
+
+        Plotly.newPlot('visualizeChartContainer', datasets, layout);
+    }
+
+    // Function to render the heatmap using Plotly
+    function renderHeatmap(data) {
+        const xValues = ['sat', 'unsat'];
+        const yValues = data.map(d => d.system);
+        const zValues = [];
+
+        yValues.forEach((system, i) => {
+            const zRow = [];
+            xValues.forEach((result) => {
+                const executionTimes = data[i].executionTimes.filter((_, idx) => data[i].result[idx].toLowerCase() === result);
+                const avgExecutionTime = executionTimes.length ? executionTimes.reduce((a, b) => a + b, 0) / executionTimes.length : 0;
+                zRow.push(avgExecutionTime);
+            });
+            zValues.push(zRow);
+        });
+
+        const heatmapData = [{
+            z: zValues,
+            x: xValues,
+            y: yValues,
+            type: 'heatmap',
+            colorscale: 'Viridis'
+        }];
+
+        const layout = {
+            title: 'Heatmap of Execution Times',
+            xaxis: { title: 'Result' },
+            yaxis: { title: 'System' }
+        };
+
+        Plotly.newPlot('visualizeChartContainer', heatmapData, layout);
+    }
+    });
+
+    const pcaForm = document.getElementById('pcaForm');
+    const pcaTableModal = document.getElementById('pcaTableModal');
+    const pcaTableContainer = document.getElementById('pcaTableContainer');
+    const closeModalButton = document.querySelector('#pcaTableModal .close');
+
+    pcaForm.addEventListener('submit', function (event) {
+        event.preventDefault();
+
+        const prover = document.querySelector('input[name="prover"]:checked').value;
+        const system = document.getElementById('systemSelect').value;
+
+        fetch('/get_pca_data', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({ prover: prover, system: system })
+        })
+        .then(response => {
+            if (!response.ok) {
+                throw new Error(`HTTP error! status: ${response.status}`);
+            }
+            return response.json();
+        })
+        .then(data => {
+            if (data.error) {
+                alert(data.error);  // Handle errors like "No data found"
+                } else {
+                    renderPcaTable(data); // Render the table with the data
+                    pcaTableModal.style.display = 'block'; // Show the modal
+                    }
+                })
+                .catch(error => console.error('Error fetching PCA data:', error));
+            });
+
+    // Function to render the PCA table
+    function renderPcaTable(data) {
+        let tableHtml = '<table><thead><tr>';
+        Object.keys(data[0]).forEach(key => {
+            tableHtml += `<th>${key}</th>`;
+        });
+        tableHtml += '</tr></thead><tbody>';
+        data.forEach(row => {
+            tableHtml += '<tr>';
+            Object.values(row).forEach(value => {
+                tableHtml += `<td>${value}</td>`;
+            });
+            tableHtml += '</tr>';
+        });
+        tableHtml += '</tbody></table>';
+        pcaTableContainer.innerHTML = tableHtml;
+    }
+
+    closeModalButton.addEventListener('click', function() {
+        pcaTableModal.style.display = 'none';
+    });
+
+    window.addEventListener('click', function(event) {
+        if (event.target === pcaTableModal) {
+            pcaTableModal.style.display = 'none';
+        }
+    });
+
+
+
+</script>
+</body>
+</html>
